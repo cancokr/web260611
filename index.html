@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="#" class="logo-link"><img src="images/CAN_logo.jpg" alt="CAN" class="header-logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#company">회사소개</a></li>
+                <li><a href="#products">제품소개</a></li>
+                <li><a href="https://blog.naver.com/cancoltd" target="_blank">블로그</a></li>
+                <li><a href="#contact">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <!-- <div class="hero-logo">
+                    <img src="images/CAN_logo.jpg" alt="CAN" class="main-logo">
+                </div>
+                <p>첨단 기술로 미래를 선도하는 글로벌 디스플레이 솔루션 기업</p> -->
+                <div class="dashboard-preview">
+                    <img src="images/dashboard_display_touch.png" alt="대시보드 디스플레이 터치 솔루션" class="dashboard-image">
+                </div>
+                <a href="#company" class="btn">자세히 알아보기</a>
+            </div>
+            <a href="#company" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Company Introduction Section -->
+        <section id="company">
+            <h2>회사소개</h2>
+            <div class="company-container">
+                <div class="company-text">
+                    <h3>CAN 주식회사</h3>
+                    <p>
+                        주식회사 씨에이앤은 2013년 설립이래 디스플레이 부품 및 소재 분야에서 혁신적인 기술력을 바탕으로 성장해왔습니다. 터치패널, 커버글라스, 크리스탈, QD 등 다양한 제품군을 개발하여 글로벌 시장에서 인정받고, 유수의 자동차에 공급하고 있습니다.
+                    </p>
+                    <p>
+                        끊임없는 연구개발과 품질향상을 통해 고객사의 요구에 부응하며 미래디스플레이 산업을 선도하는 기업으로 도약하고 있습니다.
+                        <br>글로벌 유통 네트워크 기반의 기술 Consultant, 소통채널의 허브 CAN
+                    </p>
+                </div>
+                <div class="company-info">
+                    <div><i class="fas fa-calendar-alt"></i><span>설립년도</span>2013년</div>
+                    <div><i class="fas fa-map-marker-alt"></i><span>위치</span>서울 본사, 대구 연구소</div>
+                </div>
+                <div class="history-section">
+                    <h3>연혁</h3>
+                    <div class="history-image">
+                        <img src="images/web_history.png" alt="연혁">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>제품소개</h2>
+            <p class="section-intro">
+                주식회사 씨에이앤은 다양한 디스플레이 부품, 소재를, 고객의 높은 QCD 요구에 만족하며 최적의 솔루션을 제공합니다.
+            </p>
+            <div class="product-grid">
+                <!-- Touch Panel -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/touch_audi_web.png" alt="Touch Panel">
+                    </div>
+                    <div class="product-content">
+                        <h3>Touch Panel</h3>
+                        <p>고신뢰성 정전방식 차량용 터치패널</p>
+                        <a href="#" class="learn-more" data-modal="touch-panel-modal">자세히 보기 <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- Cover Glass -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/CG_g80_web.png" alt="Cover Glass">
+                    </div>
+                    <div class="product-content">
+                        <h3>Cover Glass</h3>
+                        <p>디스플레이 보호와 미적 가치를 높이는 고품질 커버글라스</p>
+                        <a href="#" class="learn-more" data-modal="cover-glass-modal">자세히 보기 <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- Crystal -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/quartz_web.png" alt="Crystal">
+                    </div>
+                    <div class="product-content">
+                        <h3>Crystal</h3>
+                        <p>우수한 광학적 특성과 내구성을 지닌 고순도 크리스탈 소재</p>
+                        <a href="#" class="learn-more" data-modal="crystal-modal">자세히 보기 <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <!-- Quantum Dot -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/qddp_web.png" alt="Quantum Dot">
+                    </div>
+                    <div class="product-content">
+                        <h3>Quantum Dot</h3>
+                        <p>차세대 디스플레이를 위한 혁신적인 퀀텀닷 솔루션</p>
+                        <a href="#" class="learn-more" data-modal="quantum-dot-modal">자세히 보기 <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>블로그</h2>
+            <p class="section-intro">CAN 주식회사의 최신 소식과 기술 정보를 블로그에서 확인하세요.</p>
+            <a href="https://blog.naver.com/cancoltd" target="_blank" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> 네이버 블로그
+            </a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>문의하기</h2>
+            <p class="section-intro">제품 문의나 협업 제안 등 궁금한 사항이 있으시면 아래 연락처로 문의해 주세요.</p>
+            
+            <div class="contact-methods">
+                <div class="contact-info">
+                    <h3>연락처 정보</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>이메일</h3>
+                            <p>sales@canco.kr</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h3>전화번호</h3>
+                            <p>02-6120-8833</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <h3>업무시간</h3>
+                            <p>평일 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-email">
+                    <a href="mailto:sales@canco.kr?subject=문의사항" class="email-button">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>이메일 보내기</span>
+                    </a>
+                    <p>버튼을 클릭하시면 기본 메일 앱으로 연결됩니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="images/CAN_logo.jpg" alt="CAN" class="footer-logo-img">
+                </div>
+                <p>첨단 기술로 미래를 선도하는<br>글로벌 디스플레이 솔루션 기업</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://blog.naver.com/cancoltd" target="_blank" title="네이버 블로그"><i class="fa-solid fa-blog"></i></a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>연락처</h3>
+                <p><i class="fas fa-map-marker-alt"></i><strong>본사:</strong> 서울특별시 가산디지털1로 58 에이스한솔타워 1414호</p>
+                <p><i class="fas fa-map-marker-alt"></i><strong>연구소:</strong> 대구광역시 중구 동덕로115, 1418호</p>
+                <p><i class="fas fa-phone"></i> 02-6120-8833</p>
+                <p><i class="fas fa-envelope"></i> info@canco.kr</p>
+            </div>
+            <div class="footer-map">
+                <h3>위치</h3>
+                <div class="map-grid">
+                    <div class="map-item">
+                        <h4>본사</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.807869330999!2d126.88372667634289!3d37.48834787205837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9df253733475%3A0xe5a36338e5554605!2z7ISc7Jq47Yq567OE7IucIOq4iOq1rCDqsJXCsO2Dgeq1geyjvDE166GcIDU4!5e0!3m2!1sko!2skr!4v1700000000000" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="map-item">
+                        <h4>연구소</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.053198942978!2d128.6019688762512!3d35.84803987253507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e38d38104595%3A0x6c6e755291a50c8!2z64yA6rSR6rSR7Jet7IucIOyEseuCqOq1rCDrj5nqtZDrr7ggMTE1!5e0!3m2!1sko!2skr!4v1700000000001" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>바로가기</h3>
+                <ul>
+                    <li><a href="#company">회사소개</a></li>
+                    <li><a href="#products">제품소개</a></li>
+                    <li><a href="#blog">블로그</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2013 CAN Co., Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="touch-panel-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h2>Touch Panel</h2>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/touch_audi_web.png" alt="Touch Panel">
+                </div>
+                <div class="modal-main-content">
+                    <div>
+                        <h4>제품 설명</h4>
+                        <p>고신뢰성 정전방식 터치 패널로, 다양한 환경에서도 안정적인 터치 성능을 제공합니다. 차량용 디스플레이에 최적화된 내구성과 반응성을 자랑합니다.</p>
+                        <p>고온, 고습, 진동 등 가혹한 환경에서도 안정적인 작동이 가능하며, 장갑 터치 및 물기 보정 기능을 탑재하여 다양한 사용 환경에 대응합니다. OGS(One Glass Solution) 기술을 적용하여 두께를 최소화하고 광학 특성을 개선했습니다.</p>
+                    </div>
+                    <div class="modal-details">
+                        <div>
+                            <h4>주요 특징</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 차량용 고신뢰성 강화 설계</li>
+                                <li><i class="fas fa-check"></i> 고감도 터치 인식 기술</li>
+                                <li><i class="fas fa-check"></i> 다양한 크기 및 디자인 커스터마이징</li>
+                                <li><i class="fas fa-check"></i> OGS (On Glass Solution) 터치</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>적용 분야</h4>
+                            <div class="application-fields">
+                                <span><i class="fas fa-car"></i> 자동차 디스플레이</span>
+                                <span><i class="fas fa-industry"></i> 산업용 디스플레이</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="cover-glass-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h2>Cover Glass</h2>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/CG_g80_web.png" alt="Cover Glass">
+                </div>
+                <div class="modal-main-content">
+                    <div>
+                        <h4>제품 설명</h4>
+                        <p>디스플레이 보호와 미적 가치를 동시에 제공하는 고품질 강화 유리 제품입니다. 특수 강화 공정을 통해 내구성을 높이고, 정밀한 가공 기술로 다양한 디자인 요구사항을 충족합니다.</p>
+                        <p>고투명 소재를 사용하여 디스플레이의 선명도를 그대로 전달하며, 다양한 코팅 기술을 적용하여 AG AR AF 눈부심방지, 초저반사, 지문 방지 등의 기능을 제공합니다.</p>
+                    </div>
+                    <div class="modal-details">
+                        <div>
+                            <h4>주요 특징</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 대형 3D 곡면 커브드 글라스</li>
+                                <li><i class="fas fa-check"></i> AG/AR/AF Direct Coating 기술</li>
+                                <li><i class="fas fa-check"></i> 광학 기능성 ASF 부착</li>
+                                <li><i class="fas fa-check"></i> Real Black 및 ΔE 최적화 기술</li>
+                                <li><i class="fas fa-check"></i> 강도향상 기술</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>적용 분야</h4>
+                            <div class="application-fields">
+                                <span><i class="fas fa-car"></i> 자동차 디스플레이</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="crystal-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h2>Crystal</h2>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/quartz_web.png" alt="Crystal">
+                </div>
+                <div class="modal-main-content">
+                    <div>
+                        <h4>제품 설명</h4>
+                        <p>CAN의 크리스탈 제품은 고순도 소재를 사용하여 우수한 광학적 특성과 고급스러운 미적 가치를 제공합니다. 정밀한 가공 기술을 통해 다양한 형태와 크기로 제작 가능하며, 다양한 제품에 적용 가능합니다.</p>
+                        <p>특수 처리 공정을 통해 내열성과 내구성을 강화하였으며, 고객의 요구에 맞는 맞춤형 솔루션을 제공합니다. 광학 렌즈, 필터, 프리즘 등 다양한 응용 분야에 적용 가능합니다.</p>
+                    </div>
+                    <div class="modal-details">
+                        <div>
+                            <h4>주요 특징</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 고순도 크리스탈 소재</li>
+                                <li><i class="fas fa-check"></i> 우수한 광학적 특성</li>
+                                <li><i class="fas fa-check"></i> 정밀 가공 기술</li>
+                                <li><i class="fas fa-check"></i> 다양한 형태 제작 가능</li>
+                                <li><i class="fas fa-check"></i> 내열성 및 내구성</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>적용 분야</h4>
+                            <div class="application-fields">
+                                <span><i class="fas fa-cogs"></i> 광학 부품</span>
+                                <span><i class="fas fa-microchip"></i> 센서 커버</span>
+                                <span><i class="fas fa-shapes"></i> 크리스탈 가공품</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="quantum-dot-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h2>Quantum Dot</h2>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/qddp_web.png" alt="Quantum Dot">
+                </div>
+                <div class="modal-main-content">
+                    <div>
+                        <h4>제품 설명</h4>
+                        <p>차세대 디스플레이를 위한 혁신적인 퀀텀닷 솔루션으로, 뛰어난 색재현율과 에너지 효율성을 제공합니다. CAN의 독자적인 기술력으로 개발된 퀀텀닷 소재는 기존 디스플레이 기술의 한계를 뛰어넘는 화질을 구현합니다.</p>
+                        <p>광학적 특성을 최적화하여 더 넓은 색 영역과 정확한 색 재현이 가능하며, 낮은 전력 소비로 에너지 효율성을 크게 향상시켰습니다. 다양한 디스플레이 크기와 해상도에 최적화된 솔루션을 제공합니다.</p>
+                    </div>
+                    <div class="modal-details">
+                        <div>
+                            <h4>주요 특징</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 우수한 색재현율 (Wide Color Gamut)</li>
+                                <li><i class="fas fa-check"></i> 높은 에너지 효율성</li>
+                                <li><i class="fas fa-check"></i> 우수한 시야각</li>
+                                <li><i class="fas fa-check"></i> 긴 수명과 안정성</li>
+                                <li><i class="fas fa-check"></i> 환경 친화적 소재</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>적용 분야</h4>
+                            <div class="application-fields">
+                                <span><i class="fas fa-tv"></i> TV 및 모니터</span>
+                                <span><i class="fas fa-mobile-alt"></i> 스마트 기기</span>
+                                <span><i class="fas fa-car"></i> 자동차 디스플레이</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
