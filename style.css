@@ -800,6 +800,65 @@ section {
     text-align: center;
 }
 
+/* Email Card Styles */
+.contact-email {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.contact-email .email-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.contact-email .email-icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.contact-email .email-label {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.contact-email .email-address {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-email:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section Specific Adjustments */
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-email {
+    flex: 0 1 280px;
+}
+
 .dashboard-container {
     max-width: 1200px;
     margin: 0 auto;
