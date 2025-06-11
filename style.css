@@ -19,6 +19,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px; /* Header height */
+    font-size: 120%; /* Increased base font size by 20% */
 }
 
 body {
@@ -207,7 +208,7 @@ section {
 }
 
 .dashboard-preview .dashboard-image {
-    max-width: 100%;
+    max-width: 115%; /* Increased by 15% */
     height: auto;
     border-radius: 12px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
@@ -424,6 +425,25 @@ section {
 }
 #contact {
     background-color: var(--light-bg);
+}
+
+.contact-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 25px 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 250px;
 }
 
 /* Contact Form */
@@ -796,7 +816,7 @@ section {
 }
 
 .dashboard-image {
-    max-width: 100%;
+    max-width: 115%; /* Increased by 15% */
     height: auto;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
